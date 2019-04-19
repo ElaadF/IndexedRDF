@@ -4,7 +4,7 @@ scala:
    
 env:
   global:
-    - CODECOV_TOKEN=""
+    - CODECOV_TOKEN="4add9d27-1280-49e6-8c51-5e9aae30fbcf"
 
 script:
    - sbt clean coverage test coverageReport
