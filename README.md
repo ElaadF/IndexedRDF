@@ -4,4 +4,4 @@
 
 # Indexed RDF
 
-Index RDF according to Index RDD from Berkeley
+The purpose of this project is to benchmark the cost of indexing triples (s, p, o) in RDF using [Indexed RDD](https://github.com/amplab/spark-indexedrdd)
