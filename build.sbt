@@ -16,5 +16,8 @@ libraryDependencies ++= Seq(
   "com.ankurdave" %% "part" % "0.1",
   "org.scalacheck" %% "scalacheck" % scalachekVersion % "test",
   "org.scalactic" %% "scalactic" % "3.0.5",
-  "org.scalatest" %% "scalatest" % "3.0.5" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.5" % "test",
+  "org.apache.jena" % "jena" % "3.10.0" pomOnly()
+
 )
+
