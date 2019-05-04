@@ -17,7 +17,7 @@ libraryDependencies ++= Seq(
   "org.scalacheck" %% "scalacheck" % scalachekVersion % "test",
   "org.scalactic" %% "scalactic" % "3.0.5",
   "org.scalatest" %% "scalatest" % "3.0.5" % "test",
-  "org.apache.jena" % "jena" % "3.10.0" pomOnly()
-
+  "org.apache.jena" % "apache-jena-libs" % "3.0.0",
+  "org.apache.jena" % "jena-text" % "3.0.0"
 )
 
